@@ -61,8 +61,9 @@ Here is an example of using the grid, for a 3 column layout:
 
 ## Markdown
 
-By default, the website offers two different areas to post your markdown files:
+By default, the website offers two different areas to post your markdown files
+inside the [markdown](./markdown) directory:
 - The `blog` directory will add your file to the `/blog` page, sorted by date.
-- The `research` directory will list articles based on topics, corresponding to
-the subdirectories in the `research` directory. These articles are ordered by
-topic instead of by date.
+- The `research` directory will list articles based on topics, on the
+`/research` page. These articles are ordered by topic instead of by date.
+Topics correspond to the subdirectories in the `research` directory.
