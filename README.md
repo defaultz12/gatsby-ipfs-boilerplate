@@ -31,6 +31,16 @@ way that is very hard to censor. They were created to encourage developers to
 combine the forces of Bitcoin Cash, IPFS, and Tor to unleash a vibrant online
 economy.
 
+- [Here is a non-technical video](https://www.youtube.com/watch?v=RlNVyatwd5M) overview
+of how governments censor content on the internet, and how decentralized publishing
+tools can be used to circumvent it.
+
+- [Here is a walkthrough video](https://www.youtube.com/watch?v=Ez9YXpu_Chs&t=971s) of
+how to use this repository along with
+the [memo-push](https://github.com/christroutner/memo-push) tool to publish a
+website in a decentralized, censorship-resistant way in order to leverage the
+[Streisand Effect](https://en.wikipedia.org/wiki/Streisand_effect).
+
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
