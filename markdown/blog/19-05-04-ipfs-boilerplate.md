@@ -14,3 +14,5 @@ censorship-resistant manner.
 All code is published under the MIT license, which means you are free to modify
 the code and share your changes with anyone you want. You can charge money for
 it too. The power is in your hands.
+
+![CashID Auth Flowchart](images/cashid-auth.jpeg 'An example image with caption')
