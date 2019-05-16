@@ -3,7 +3,8 @@
 This repository (*repo*) contains a website template for building a website with
 the [Gatsby framework](https://www.gatsbyjs.org/).
 
-- [Live Demo](https://gateway.ipfs.io/ipfs/QmXapvuUSEQwUtSAMEjc7AsXCtEdMd4Fq427R7whdeDasu)
+- [Live Demo](http://troutsblog.com)
+- [Mirror](https://ipfs.io/ipfs/QmbG75ohG6oKrnDFiWXVAtTc79pfyELNjZ9cvhYRMyyN2q/)
 
 Unlike other Gatsby starters and website templates, this template has some
 specific features:
@@ -11,7 +12,7 @@ specific features:
 Save your markdown files to the [markdown](./markdown) directory.
 - [IPFS](https://ipfs.io) ready. The `public` folder where the site gets built
 is ready to be added to the IPFS network, and will serve the website from any
-IPFS gateway. [Here's an example](https://gateway.ipfs.io/ipfs/QmXapvuUSEQwUtSAMEjc7AsXCtEdMd4Fq427R7whdeDasu)
+IPFS gateway. [Here's an example](https://ipfs.io/ipfs/QmbG75ohG6oKrnDFiWXVAtTc79pfyELNjZ9cvhYRMyyN2q/)
 - Responsive and Mobile First. The site template is originally based
 on [Fourty by HTML5 Up](https://github.com/codebushi/gatsby-starter-forty). It
 features mobile-first styling and easy-to-use grid system for controlling the
@@ -43,7 +44,9 @@ website in a decentralized, censorship-resistant way in order to leverage the
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Install this starter
+(assuming [Gatsby is installed](https://www.gatsbyjs.org/docs/gatsby-cli/)) by
+running from your CLI:
 <br/>
 `gatsby new gatsby-ipfs-boilerplate https://github.com/christroutner/gatsby-ipfs-boilerplate`
 
