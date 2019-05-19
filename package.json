@@ -19,6 +19,8 @@
     "react-collapsible": "^2.6.0",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
+    "react-pose": "^4.0.8",
+    "react-pose-text": "^3.1.0",
     "styled-components": "^4.2.0"
   },
   "keywords": [

@@ -80,3 +80,104 @@ inside the [markdown](./markdown) directory:
 - The `research` directory will list articles based on topics, on the
 `/research` page. These articles are ordered by topic instead of by date.
 Topics correspond to the subdirectories in the `research` directory.
+
+
+
+
+ARIEL'S NOTES IN DOING PART 1:
+
+Part 1 Notes:
+1. Fork this public github repository https://github.com/christroutner/gatsby-ipfs-boilerplate to your own github account and make sure it’s public.
+2. Go to your forked github repository
+3. Clone it to your local folder. Example:
+git clone https://github.com/defaultz12/gatsby-ipfs-boilerplate
+4. Navigate your local folder where the gatsby-ipfs-boilerplate and open the terminal(use git cmd for windows https://git-scm.com/downloads)
+5. Install all the necessary npm plugins inside your gatsby-ipfs-boilerplate/src/package.json. Run this command.
+npm install
+6. Install gatsby-cli and install it globally
+npm install -g gatsby-cli
+7. Run the gatsby template
+gatsby develop
+8. After running gatsby develop, access localhost:8000 to your browser
+9. Proceed to the task
+
+TASK 1:
+Create a new markdown page in markdown/blog(COMPLETED)
+
+Since this template already supports dynamic reading of markdown files by installing gatsby gatsby-source-filesystem and locate where are the markdown files and converting the markdown files and readable by graphql.
+
+We could just add another blog entry by going to gatsby-ipfs-boilerplate -> markdown -> blogs
+
+If there are currently blog markdown templates, just copy it and just replace the values.
+Currently, there are 5 fields on the blogs:
+- date
+- title
+- root
+- path
+- html body
+
+Create a new markdown file -> task1.md
+
+---
+date: "2019-05-19"
+title: "Task 1: Creating new blog markdown"
+root: "/blog"
+path: "/blog/task1-create-new-blog"
+---
+
+This article is for an IPFS boilerplate that I'm working on. I am currently creating a new markdown file under blogs with the latest date.
+
+Will it appear as a latest blog?
+![Latest Blog](images/showed-as-latest-blog.png 'Available as a latest blog')
+<br />
+Will this be queryable in graphql?
+![CashID Auth Flowchart](images/graphql.png 'Available as a graphql')
+<br />
+Will it create another blog page?
+![CashID Auth Flowchart](images/created-a-new-page.png 'It creates a new blog page')
+
+2.Create a new page in src/pages/test.js(COMPLETED)
+
+
+Go to src/pages
+Create new file -> test.js
+
+There are 2 types of creating a web page using gatsby(based from react)
+Functional Component vs Class Component
+
+When to use functional component:
+If your page only requires a plain JavaScript function which accepts props as an argument and returns a React element
+
+
+When to use class component:
+A class component requires you to extend from React.Component and create a render function which returns a React element. This requires more code but will also give you some benefits.
+
+
+Functional Component Example:
+import React from 'react'
+import Layout from './layout'
+
+const Page = () => (
+    <Layout>
+        <div>Body Content<div>
+    </Layout>
+)
+
+export default Page
+
+Class Component Example:
+import React from 'react'
+import Layout from './layout'
+
+class Page extends React.Component{
+    render(){
+        return(
+            <Layout>
+            <div>Body Content<div>
+            </Layout>
+        )
+    }
+}
+
+export default Page
+
