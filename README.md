@@ -84,7 +84,7 @@ Topics correspond to the subdirectories in the `research` directory.
 
 
 
-ARIEL'S NOTES IN DOING PART 1:
+## ARIEL'S NOTES IN DOING PART 1:
 
 Part 1 Notes:
 1. Fork this public github repository https://github.com/christroutner/gatsby-ipfs-boilerplate to your own github account and make sure it’s public.
@@ -117,7 +117,7 @@ Currently, there are 5 fields on the blogs:
 - html body
 
 Create a new markdown file -> task1.md
-
+```
 ---
 date: "2019-05-19"
 title: "Task 1: Creating new blog markdown"
@@ -128,13 +128,11 @@ path: "/blog/task1-create-new-blog"
 This article is for an IPFS boilerplate that I'm working on. I am currently creating a new markdown file under blogs with the latest date.
 
 Will it appear as a latest blog?
-![Latest Blog](images/showed-as-latest-blog.png 'Available as a latest blog')
 <br />
 Will this be queryable in graphql?
-![CashID Auth Flowchart](images/graphql.png 'Available as a graphql')
 <br />
 Will it create another blog page?
-![CashID Auth Flowchart](images/created-a-new-page.png 'It creates a new blog page')
+```
 
 2.Create a new page in src/pages/test.js(COMPLETED)
 
@@ -152,8 +150,8 @@ If your page only requires a plain JavaScript function which accepts props as an
 When to use class component:
 A class component requires you to extend from React.Component and create a render function which returns a React element. This requires more code but will also give you some benefits.
 
-
 Functional Component Example:
+```
 import React from 'react'
 import Layout from './layout'
 
@@ -164,8 +162,10 @@ const Page = () => (
 )
 
 export default Page
+```
 
 Class Component Example:
+```
 import React from 'react'
 import Layout from './layout'
 
@@ -180,4 +180,5 @@ class Page extends React.Component{
 }
 
 export default Page
+```
 
